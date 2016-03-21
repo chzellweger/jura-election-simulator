@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rauschma/webpack-babel-demo.git"
+    "url": "git+https://github.com/chzellweger/jura-election-simulator.git"
   },
   "bugs": {
-    "url": "https://github.com/rauschma/webpack-babel-demo/issues"
+    "url": "https://github.com/chzellweger/jura-election-simulator.git/issues"
   },
-  "homepage": "https://github.com/rauschma/webpack-babel-demo#readme"
+  "homepage": "https://github.com/chzellweger/jura-election-simulator.git"
 }
