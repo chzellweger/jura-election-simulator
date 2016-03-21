@@ -1,15 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <title>webpack Babel demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Jurasitz-Simulator</title>
+    <!-- <script src="http://code.jquery.com/jquery-latest.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
+    <header class="header">
+        <h1>Jurasitz-Simulator</h1>
+    </header>
 
-<h1>webpack Babel demo</h1>
+    <main class="container">
+    
+        <section class="calculate">
+        
+            <div class="candidates">
+            
+                <div class="legend row">
+                    <div class="column column-20">Kandidat</div>
+                    <div class="column column-35">Stimmen Jura</div>
+                    <div class="column column-35">Stimmen Gesamter Kanton inklusive Jura-Stimmen</div>
+                </div>
 
-<div id="output"></div>
+                <div class="input row" id="schnegg">
+                    <div id="cand1" class="column column-20">Kandidat 1</div>
+                    <input type="text" id="c1_j" class="column column-35"/>
+                    <input type="text" id="c1_b" class="column column-35"/>
+                </div>
 
-<script src="bundle.js"></script>
+                <div class="input row" id="bernasconi">
+                    <div id="cand2" class="column column-20">Kandidat 2</div>
+                    <input type="text" id="c2_j" class="column column-35"/>
+                    <input type="text" id="c2_b" class="column column-35"/>
+                </div>
+        
+            </div>
+
+        </section>
+    
+        <section class="buttons row">
+            <div class="column column-10"></div>
+            <div class="column column-10"></div>
+            <button id="scenario_2016" class="column column-10">2016</button>
+            <button id="scenario_2014" class="column column-10">2014</button>
+            <button id="reset" class="column column-10">reset</button>
+            <div class="column column-10"></div>
+            <div class="column column-10"></div>
+            <div class="column column-10"></div>
+            <div class="column column-10"></div>
+            <button id="count" class="column column-10">go!</button>
+        </section>
+    
+        <section class="output row">
+            <div id="product" class="column column-33"></div>
+            <div id="result" class="column column-33"></div>
+            <div id="winner" class="column column-33"></div>
+        </section>
+    
+    </main>
+  
+
+    <section class="logic"> <script src="bundle.js"></script>
+    </section>
+
 </body>
+
 </html>
