@@ -2,6 +2,8 @@
 
 Demonstrates the principle of the "Jura-Formel". This is a principle used in the elections in the canton of Berne, Switzerland.
 
+This project is based on the webpack-es6-demo by Axel Rauschmeyer (https://github.com/rauschma)
+
 Installation:
 
 ```
