@@ -1,11 +1,11 @@
-# webpack Babel demo
+# Jura elections simulator
 
-Demonstrates how to use webpack with Babel.
+Demonstrates the principle of the "Jura-Formel". This is a principle used in the elections in the canton of Berne, Switzerland.
 
 Installation:
 
 ```
-cd webpack-babel-demo/
+cd jura_webpack/
 npm install
 ```
 
