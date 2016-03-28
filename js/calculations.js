@@ -4,7 +4,7 @@ var calculator = {
         return prod;
     },
     result(prod) {	
-        var calcRoot = Math.fround(Math.sqrt(prod));
+        var calcRoot = Math.round(Math.sqrt(prod));
         return calcRoot;
     }
 };

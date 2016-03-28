@@ -1,5 +1,5 @@
 import { hooks } from './hooks.js';
-import { product, result } from './calculatorModule.js';
+import { product, result } from './calculations.js';
 
 var electionCalculator = {
     m: {

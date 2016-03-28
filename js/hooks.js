@@ -15,5 +15,10 @@ export var hooks = {
 
 	product: $('#product'),
 	result: $('#result'),
-	winner: $('#winner')
+	winner: $('#winner'),
+
+	cand1_result: $('#cand1-result'),
+	cand2_result: $('#cand2-result'),
+
+	error: $('#error')
 };

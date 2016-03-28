@@ -47,8 +47,6 @@ var voteTracker = {
 
       
         voteTracker.v.render();
-      } else {
-        console.log('no legal updates detected...');
       }
     },
 
