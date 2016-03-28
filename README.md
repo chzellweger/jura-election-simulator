@@ -1,6 +1,7 @@
 # Jura elections simulator
 
 Demonstrates the principle of the "Jura-Formel". This is a principle used in the elections in the canton of Berne, Switzerland.
+Online at http://interaktiv.derbund.ch/ext/2016/jura_simulator/ .
 
 This project is based on the webpack-es6-demo by Axel Rauschmeyer (https://github.com/rauschma)
 
