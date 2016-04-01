@@ -16,7 +16,9 @@ var templates = {
 	},
 	sumError () {
 		console.log('template: sumError');
-		hooks.error.text("Summe Kantons-Stimmen kleiner als Jura-Stimmen, oder Stimmenzahl höher als Stimmberechtigte im Kanton (max. 730'000).");
+		hooks.error.text(`Summe Kantons-Stimmen kleiner als Jura-Stimmen, 
+						  oder Stimmenzahl höher als Stimmberechtigte im Kanton
+						  (max. 730'000).`);
 	},
 	resultHTML (){
 			hooks.cand1_result.text(templates.result_c1);
@@ -26,10 +28,10 @@ var templates = {
 	},
 	winnerHTML(){
 		if ( templates.result_c1 === templates.result_c2 ) {
-			hooks.cand1_result.text(': Resultat: ' + templates.result_c1 + ' ');
+			hooks.cand1_result.text(`: Resultat: ${templates.result_c1} `); 
 			hooks.cand1_result.append('<span class="fa fa-minus-square-o"></span>');
 
-			hooks.cand2_result.text(': Resultat: ' + templates.result_c2 + ' ');
+			hooks.cand2_result.text(`: Resultat: ${templates.result_c2} `);
 			hooks.cand2_result.append('<span class="fa fa-minus-square-o"></span>');
 
 			hooks.error.text('Bei Gleichstand wird die Wahl durch das Los entschieden.');
@@ -40,7 +42,7 @@ var templates = {
 			var winnerText = (templates.result_c1 > templates.result_c2) ? templates.result_c1 : templates.result_c2;
 			var looserText = (templates.result_c1 < templates.result_c2) ? templates.result_c1 : templates.result_c2;
 		
-			winner.text(':  Resultat: ' + winnerText + ' ');
+			winner.text(`: Resultat: ${winnerText} `);
 			winner.append('<span class="fa fa-check-square"></span>');
 			winner.addClass('winner');
 			
@@ -48,7 +50,7 @@ var templates = {
 				looser.removeClass('winner');
 			}
 
-			looser.text(':  Resultat: ' + looserText + ' ');
+			looser.text(`: Resultat: ${looserText} `);
 			looser.append('<span class="fa fa-minus-square"></span>')
 		}
 }
