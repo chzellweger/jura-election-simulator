@@ -1,25 +1,5 @@
 # Jura elections simulator
 
-Demonstrates the principle of the "Jura-Formel". This is a principle used in the elections in the canton of Berne, Switzerland.
-Online at http://interaktiv.derbund.ch/ext/2016/jura_simulator/ .
+_Live at http://interaktiv.derbund.ch/ext/2016/jura_simulator/ ._
 
-This project is based on the webpack-es6-demo by Axel Rauschmeyer (https://github.com/rauschma)
-
-Installation:
-
-```
-cd jura_webpack/
-npm install
-```
-
-There are three ways in which you can build and run the web app:
-
-* Build once:
-    * `npm run build`
-    * Open `build/index.html`
-* Watch files continuously, rebuild incrementally, whenever one of them changes:
-    * `npm run watch`
-    * Open `build/index.html`, manually reload page in browser whenever there was a change
-* Hot reloading via webpack dev server:
-    * `npm start`
-    * Go to `http://localhost:8080/`, page reloads automatically when there are changes
+Demonstrates the principle of the "Jura-Formel". This is a principle used in the elections in the canton of Berne, Switzerland. Made for the swiss newspaper [_«Der Bund»_](http://www.derbund.ch).
